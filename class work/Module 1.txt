@@ -1,0 +1,42 @@
+Lecture Node
+
+data type
+float = 8 decimal
+double = 15 decimal
+
+1. a = 024 it will give output 20  because whenever 0 comes starting with number then number convert in 
+                octal;
+    b = 0x24  = 36 it conver in hexadecimal starting(0x); 
+
+2. a+++++a+++++a = 28
+    (a++) + (++a) + (a++) + (++a);
+
+3. max = ((x+y) + abs(a-y)) / 2
+  . min = ((x+y) - abs(a-y)) / 2
+
+
+4. find odd and even without if else
+    1. with bit wise ( & )
+        string arr = {"even", "odd"};
+        cout<< arr[n&1];
+
+    2. with ( % )
+        string arr = {"even", "odd"};
+        cout<< arr[n%2];
+
+    3. print(n%2 and "odd" or "even") in python
+
+
+5. find sum of digit in constant time by divisibility rule of 9
+    it is for single digit from 13 -> 13-9 -> 4 
+
+    int sum  = 0;
+    int n = 292;
+    if(n) {
+        sum = (n%9 == 0) ? 9 : n%9;
+    } 
+    else {
+        sum = 0;
+    }
+
+    cout<<sum; -> output will be 4
